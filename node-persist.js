@@ -3,7 +3,7 @@
  * http://simonlast.org
  */
 
-var fs     = require('fs'),
+var fs     = require('graceful-fs'),
     path   = require('path'),
     mkdirp = require("mkdirp"),
     _      = require("underscore"),
